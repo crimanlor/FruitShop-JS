@@ -51,11 +51,12 @@ function renderFruit(){
 
 function changeImg(id) {
   /*-----------------------------------------------------------------------------
-    CAMBIAR LA RUTA POR LA DEL ORDENADOR QUE LO VISUALICE. UTILIZAR EL ALERT PARA AVERIGUARLA
+    CAMBIAR LA RUTA COMENTADA DE LA VARIABLE RUTA POR LA DEL ORDENADOR O SERVIDOR DESDE EL QUE SE VISUALICE. UTILIZAR EL ALERT DE LA LÍNEA 58 PARA AVERIGUARLA
   ------------------------------------------------------------------------------
   */
-  var ruta = "images/"+fruits[id].images[0]; 
-alert(document.getElementById("img"+id).src);
+    var ruta = "https://fruitshop-js.netlify.app/images/"+fruits[id].images[0];
+    //alert(document.getElementById("img"+id).src);
+    
     if (document.getElementById("img"+id).src == ruta){
       document.getElementById("img"+id).src = "images/"+fruits[id].images[1];   
     } else{
