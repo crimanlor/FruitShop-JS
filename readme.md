@@ -4,4 +4,4 @@ This website is a mock fruit store built with JavaScript. Currently, you can onl
 
 ## Demo
 
-![Enjoy using it!](https://fruitshop-js.netlify.app/)
+[Enjoy using it!](https://fruitshop-js.netlify.app/)
