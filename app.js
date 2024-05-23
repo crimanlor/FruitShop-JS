@@ -54,7 +54,7 @@ function changeImg(id) {
     CAMBIAR LA RUTA POR LA DEL ORDENADOR QUE LO VISUALICE. UTILIZAR EL ALERT PARA AVERIGUARLA
   ------------------------------------------------------------------------------
   */
-  var ruta = "http://127.0.0.1:5500/images/"+fruits[id].images[0]; 
+  var ruta = "images/"+fruits[id].images[0]; 
 //   alert(document.getElementById("img"+id).src);
     if (document.getElementById("img"+id).src == ruta){
       document.getElementById("img"+id).src = "images/"+fruits[id].images[1];   
