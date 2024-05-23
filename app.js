@@ -55,7 +55,7 @@ function changeImg(id) {
   ------------------------------------------------------------------------------
   */
   var ruta = "images/"+fruits[id].images[0]; 
-//   alert(document.getElementById("img"+id).src);
+alert(document.getElementById("img"+id).src);
     if (document.getElementById("img"+id).src == ruta){
       document.getElementById("img"+id).src = "images/"+fruits[id].images[1];   
     } else{
